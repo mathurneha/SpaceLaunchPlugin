@@ -13,4 +13,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include=".well-known\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".well-known\ai-plugin.json" />
+    <None Include=".well-known\logo.png" />
+  </ItemGroup>
 </Project>
